@@ -1,9 +1,7 @@
-import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "Pages/HomePage";
 import LoginPage from "Pages/LoginPage";
-import ProfilePage from "Pages/ProfilePage";
-import { useState } from "react";
+import ProfilePage from "Pages/Profile";
 
 function App() {
   return (
