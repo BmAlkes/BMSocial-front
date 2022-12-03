@@ -68,6 +68,7 @@ const Form = () => {
       {
         method: "POST",
         body: formData,
+        mode: "cors",
       }
     );
     const savedUser = await savedUserResponse.json();
